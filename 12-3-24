@@ -1,0 +1,22 @@
+The build process is the series of steps that take your code (the source code written by developers) and turn it into a format that a computer can run (like an executable program or a deployable application). Think of it like baking a cake: you have ingredients (code) and follow a recipe (process) to create the final product (a running application).
+
+Simplified Steps of the Build Process
+Fetch Code: Take the latest version of the source code from a repository like GitHub or GitLab.
+Compile Code: If your code is written in languages like Java, C++, or C#, it needs to be converted into machine-readable code.
+Example: Java code is turned into .class files.
+Resolve Dependencies: Gather all the extra libraries or tools your code depends on to work properly.
+Run Tests: Ensure the code works correctly by running automated tests.
+Package: Combine all the compiled code, libraries, and resources into a single file or folder, like a .jar, .zip, or Docker image.
+Deploy (optional): Sometimes, the build process ends with sending the package to a testing or production environment.
+Example in Simple Terms:
+If you are making a pizza:
+
+Fetch ingredients: Collect dough, cheese, toppings, and sauce.
+Prepare base: Flatten the dough.
+Add toppings: Spread sauce, add cheese and veggies.
+Bake: Cook the pizza in the oven.
+Serve: Deliver the pizza to the table (or package it for takeaway).
+Tools for Build Process
+Maven/Gradle (for Java projects)
+Make (for C/C++ projects)
+Jenkins (automates the entire process)
